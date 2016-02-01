@@ -1,0 +1,9 @@
+<table>
+<?php foreach($eventsList as $goods){?>
+<tr>
+    <td>商品名称</td>
+    <td><?php echo $goods['goods_name']?></td>
+    <td><a href="/index/index/seckill/eid/<?php echo $goods['event_id']?>">抢购</a></td>
+</tr>
+<?php }?>
+</table>
